@@ -1,0 +1,14 @@
+server:
+  port: 9090
+  
+spring:
+
+  datasource:
+    url: jdbc:oracle:thin:@127.0.0.1:1521:XE
+    username: system
+    password: dksxoqls12
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    
+  h2:
+    console:
+      enabled: true
